@@ -16,7 +16,7 @@ ${({ theme }) => css`
   h3,
   p {
     margin: 0;
-    line-height: 2em;
+    padding: 0;
   }
   li {
     margin-bottom: 0.5em;

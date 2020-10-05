@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
 
 export const Container = styled.div`
   ${({ theme }) => css`
@@ -9,6 +10,11 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
   background-color: #fff;
+  ${media.lessThan('medium')`
+  flex-direction: column-reverse;
+  justify-content: center;
+
+  `}
 `;
 
 export const Span = styled.span`
@@ -23,4 +29,5 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 `;

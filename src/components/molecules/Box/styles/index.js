@@ -7,9 +7,9 @@ export const BoxContainer = styled.div`
   `}
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 1em;
   border-radius: 3px;
 `;
 
@@ -24,4 +24,7 @@ export const Section = styled.section`
 export const BoxContent = styled.div`
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5em 0.5em 0; ;
 `;

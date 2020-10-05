@@ -5,7 +5,7 @@ const Text = styled.p`
   font-weight: 800;
   font-size: 1.2em;
   line-height: 1.5em;
-  padding: 2em;
+  padding: 1.5em;
   width: 100%;
 `;
 

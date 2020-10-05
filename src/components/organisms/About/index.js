@@ -19,7 +19,7 @@ const AboutMe = () => {
           生み出したもの、勉強したことをここに上げていきます。
         </Text>
       </Section>
-      <Img src={`${process.env.PUBLIC_URL}/image/color.png`} width="200px" />
+      <Img src={`${process.env.PUBLIC_URL}/image/color.png`} width="30vw" />
     </Container>
   );
 };

@@ -23,7 +23,7 @@ const Heading = () => {
     <>
       <Section>
         <h2>Policy</h2>
-        <Container bg="blue" color="white">
+        <Container>
           {units.map((unit, i) => (
             <UnitItem unit={unit} key={i} />
           ))}

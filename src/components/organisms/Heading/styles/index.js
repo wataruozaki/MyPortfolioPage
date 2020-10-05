@@ -9,10 +9,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
-
   ${media.lessThan('medium')`
   flex-direction: column;
+
   `}
 `;
 export const Section = styled.div`
@@ -24,9 +23,9 @@ export const Section = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-
+  padding: 1em;
+  height: 100vh;
   ${media.lessThan('medium')`
   flex-direction: column;
-  `}
+  `};
 `;

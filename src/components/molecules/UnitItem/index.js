@@ -4,7 +4,7 @@ import { Container } from './styles';
 const UnitItem = ({ unit }) => {
   return (
     <Container>
-      <Img src={unit.image} width="20vw" align="bottom" />
+      <Img src={unit.image} width="15vw" align="bottom" />
       <Text>{unit.body}</Text>
     </Container>
   );
