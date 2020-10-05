@@ -24,10 +24,7 @@ export const Span = styled.span`
 `;
 
 export const Section = styled.section`
-  padding: 1em;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
 `;

@@ -7,8 +7,7 @@ const AboutMe = () => {
     <Container>
       <Section>
         <h2>
-          <Span>About </Span>
-          this Site
+          <Span>About </Span>this Site
         </h2>
         <Text>
           足を運んでいただき、ありがとうございます。
