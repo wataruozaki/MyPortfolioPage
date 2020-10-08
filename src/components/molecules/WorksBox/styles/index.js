@@ -11,14 +11,14 @@ export const BoxContainer = styled.div`
   align-items: center;
   padding: 1em;
   border-radius: 3px;
+  max-width: 100%;
 `;
 
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-
   align-items: flex-start;
-  width: 20vw;
+  width: 100%;
 `;
 
 export const BoxContent = styled.div`
@@ -26,5 +26,5 @@ export const BoxContent = styled.div`
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  padding: 0.5em 0.5em 0; ;
+  padding: 0.5em 0.5em 0;
 `;

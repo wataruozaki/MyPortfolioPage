@@ -1,17 +1,17 @@
 import React from 'react';
 import { BoxContainer, BoxContent, Section } from './styles';
 import { Img, BgImg } from '../../atoms';
-import Card from '../Card/index';
+import WorksCard from '../WorksCard/index';
 import { Modal } from 'semantic-ui-react';
-const Box = ({ c }) => {
+const WorksBox = ({ c }) => {
   return (
     <>
       <BoxContainer>
         <BgImg src={c.image} />
         <BoxContent>
           <Section>
-            <h2>{c.name}</h2>
-            <p>{c.date}</p>
+            <h3>{c.name}</h3>
+            <small>{c.date}</small>
           </Section>
           <Modal
             trigger={
@@ -22,7 +22,7 @@ const Box = ({ c }) => {
               />
             }
             header={c.name}
-            content={<Card c={c} />}
+            content={<WorksCard c={c} />}
             actions={[{ key: 'done', content: 'Done', primary: true }]}
           />
         </BoxContent>
@@ -31,4 +31,4 @@ const Box = ({ c }) => {
   );
 };
 
-export default Box;
+export default WorksBox;

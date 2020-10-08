@@ -25,7 +25,7 @@ const data = {
       data: [4, 4.5, 3, 5, 3, 4, 4, 3],
     },
     {
-      label: '現在取り組んでいる',
+      label: '現在取り組んでいる技術',
       backgroundColor: 'rgba(247, 198, 2,0.2)',
       borderColor: 'rgba(247, 198, 2,1)',
       pointBackgroundColor: 'rgba(247, 198, 2,1)',

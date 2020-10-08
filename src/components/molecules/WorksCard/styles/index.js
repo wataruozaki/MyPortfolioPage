@@ -8,4 +8,5 @@ export const Grid = styled.div`
   grid-template-columns: 60% 1fr;
   padding: 2em;
   gap: 20px;
+  max-width: 100%;
 `;

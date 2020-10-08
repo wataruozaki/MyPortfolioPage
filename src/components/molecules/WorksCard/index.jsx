@@ -1,10 +1,10 @@
 import React from 'react';
 import { Grid } from './styles';
-import { BgImg } from '../../atoms';
-const Card = ({ c }) => {
+import { Img } from '../../atoms';
+const WorksCard = ({ c }) => {
   return (
     <Grid>
-      <BgImg src={c.image} />
+      <Img src={c.image} width="100%" />
       <section>
         <h3>使用してる技術</h3>
         <ul>
@@ -19,4 +19,4 @@ const Card = ({ c }) => {
   );
 };
 
-export default Card;
+export default WorksCard;
